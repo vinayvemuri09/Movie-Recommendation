@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.App {
+  --green: #16a816;
+  --light-green: #a1ca9d;
+  --dark-green: #1ca545;
+  --black: Black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: var(--black);
+  background: #d1fae5;
+  max-width: 100%;
+  margin: -1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.App-form {
+  padding: 0.75rem;
+  border: 1px solid #d1fae5;
+}
+
+.App-input {
+  width: 70%;
+  margin-right: 0;
+}
+
+.App-btn {
+  font-family: "Montserrat", sans-serizf;
+  border-left: 0;
+}
+
+.Form-div {
+  margin: 2rem 0;
+}
+
+button {
+  background: var(--green);
+  color: var(--black);
+}
+
+button:hover {
+  background: var(--light-green);
+}
+
+button:active {
+  background: var(--dark-green);
+}
+
+.genre-item {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem 0.5rem;
+  margin: 0.75rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+}
+
+.App-book {
+  border: 1px solid #6b7280;
+  margin: auto;
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
+  width: 75%;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 1rem;
+}
+
+.App-movie h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0.15em;
+  color: var(--green);
+}
+
+.App-movie p {
+  line-height: 1.5rem;
+  margin-block-end: 0em;
+  margin-block-start: 0.8em;
+}
+
+strong {
+  color: var(--green);
+}
